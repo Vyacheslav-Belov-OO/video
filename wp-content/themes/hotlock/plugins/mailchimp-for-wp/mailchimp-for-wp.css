@@ -1,0 +1,93 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+.mc4wp-form {
+	position:relative;
+	padding-top: 4px;
+}
+.mc4wp-form .mc4wp-form-fields p:first-child{
+	line-height: 30px;
+	margin-bottom: 2.6em;
+}
+.mc4wp-form .mc4wp-form-fields input[type="email"] {
+	padding: 1.1em 1.4em;
+	width: 100%;
+}
+.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+	position: absolute;
+	z-index:1;
+	right: 0;
+	top: 0;
+	padding: 0;
+	bottom: 0;
+	width:8em;
+}
+.mc4wp-form .mc4wp-form-fields input[type="email"],
+.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+						height: 60px;
+}
+
+.mc4wp-form .mc4wp-alert {
+	margin: 2em 0;
+	padding: 1em;
+}
+.page_content_wrap .content .mc4wp-form .mc4wp-form-fields p:first-child{
+	display: none;
+}
+.page_content_wrap .mc4wp-form .mc4wp-form-fields input[type="email"],
+.page_content_wrap .mc4wp-form .mc4wp-form-fields input[type="submit"],
+body.home .mc4wp-form .mc4wp-form-fields input[type="email"],
+body.home .mc4wp-form .mc4wp-form-fields input[type="submit"] {
+	vertical-align: bottom;
+}
+
+.mcfwp-agree-input > span:before{
+	content: ' ';
+	font-family: "fontello";
+	font-size: 1.5em;
+	display: block;
+	text-align: center;
+	border: 1px solid #eee;
+	width: 0.6em;
+	height: 0.6em;
+	line-height: 0.53em;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mc4wp-form-fields label.mcfwp-agree-input > input[type="checkbox"]:checked + span:before {
+	content: '\e8ab';
+}
+
+.mc4wp-form-fields label.mcfwp-agree-input > input[type="checkbox"]{
+	display: none;
+}
+
+.mc4wp-form-fields label > input[type="checkbox"] {
+	display: inline-block;
+	margin-right: 8px;
+	position: relative;
+	top: 1px;
+}
+
+form.mc4wp-form .mcfwp-agree-input > span {
+	display: inline-block;
+	text-align: left;
+	padding-left: 1.4em;
+	position: relative;
+}
+
+form.mc4wp-form .mcfwp-agree-input > span a {
+	font-size: 0.75em;
+}

@@ -1,0 +1,31 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="number"],
+.wpcf7 select,
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wpcf7 .wpcf7-form-control-wrap {
+	display: block;
+}
+.wpcf7 .columns_wrap {
+	white-space: nowrap;
+	letter-spacing: -20px;
+}
+.columns_wrap label {
+	letter-spacing: 0;
+}
+.wpcf7 .sc_form_field {
+	margin-bottom: 30px;
+}
+
+.wpcf7 .column-1_1 {
+	text-align: center;
+}

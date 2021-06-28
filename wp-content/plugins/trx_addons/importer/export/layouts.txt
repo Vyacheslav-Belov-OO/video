@@ -1,0 +1,56 @@
+<?php
+//Custom Layouts
+$layouts = array(
+		'custom_219' => array(
+				'name' => 'Action Appointment',
+				'template' => '[vc_row full_width=\"stretch_row\" equal_height=\"yes\" content_placement=\"middle\" scheme=\"dark\" css=\".vc_custom_1488877399294{padding-top: 0px !important;padding-bottom: 0px !important;background-image: url(http://hotlock.axiomthemes.com/wp-content/uploads/2017/01/bg_appointment.jpg?id=213) !important;}\"][vc_column width=\"1/2\"][vc_empty_space alter_height=\"huge\" hide_on_mobile=\"\"][vc_column_text]
+<h2>Delivering the <strong>Best Security Solutions</strong> to Our Clients</h2>
+[/vc_column_text][vc_empty_space alter_height=\"huge\" hide_on_mobile=\"1\"][/vc_column][vc_column width=\"1/2\"][vc_empty_space alter_height=\"huge\" hide_on_mobile=\"\"][trx_sc_action full_height=\"\" actions=\"%5B%7B%22position%22%3A%22ml%22%2C%22link%22%3A%22%2Fappointment%2F%22%2C%22link_text%22%3A%22make%20an%20appointment%22%2C%22icon_type%22%3A%22fontawesome%22%7D%5D\" slider=\"\" type=\"default\" columns=\"\" height=\"\" slider_pagination=\"1\" slides_space=\"0\" title_style=\"default\" title_tag=\"none\" title_align=\"default\" title=\"\" subtitle=\"\" description=\"\" link=\"\" link_text=\"\" link_image=\"\" scheme=\"inherit\" id=\"\" class=\"\" css=\"\"][vc_empty_space alter_height=\"huge\" hide_on_mobile=\"\"][/vc_column][/vc_row]',
+				'meta' => array(
+						'trx_addons_options' => array(
+								'layout_type' => 'custom'
+								),
+						'_wpb_shortcodes_custom_css' => '.vc_custom_1488877399294{padding-top: 0px !important;padding-bottom: 0px !important;background-image: url(http://hotlock.axiomthemes.com/wp-content/uploads/2017/01/bg_appointment.jpg?id=213) !important;}'
+						)
+				),
+		'header_19' => array(
+				'name' => 'Header Fullwidth',
+				'template' => '[vc_row content_placement=\"middle\" row_type=\"compact\" row_delimiter=\"\" row_fixed=\"1\" hide_on_mobile=\"\" hide_on_frontpage=\"\" css=\".vc_custom_1492160146775{padding-right: 2em !important;padding-left: 2em !important;}\"][vc_column width=\"1/4\" column_align=\"left\" column_type=\"center\"][trx_sc_layouts_logo type=\"default\" logo=\"\" logo_retina=\"\" id=\"\" class=\"\" css=\"\"][/vc_column][vc_column width=\"3/4\" column_align=\"right\"][vc_row_inner][vc_column_inner][trx_sc_layouts_menu type=\"default\" location=\"menu_main\" menu=\"none\" burger=\"\" mobile=\"1\" id=\"\" class=\"\" css=\"\" stretch=\"\" hover=\"slide_line\" animation_in=\"fadeInUpSmall\" animation_out=\"fadeOutDownSmall\" mobile_button=\"1\" mobile_menu=\"1\" mobile_hide=\"1\" hide_on_mobile=\"1\"][trx_sc_layouts_iconed_text type=\"default\" icon_type=\"fontawesome\" icon_fontawesome=\"icon-phone-2\" text1=\"\" text2=\"0 (800) 123-456\" id=\"\" class=\"\" css=\"\" link=\"\" hide_on_mobile=\"1\"][trx_sc_layouts_cart type=\"default\" text=\"\" hide_on_mobile=\"1\" id=\"\" class=\"\" css=\"\"][trx_sc_button type=\"default\" size=\"large\" link=\"/appointment\" title=\"Appointment\" subtitle=\"\" align=\"none\" text_align=\"none\" back_image=\"\" icon_type=\"fontawesome\" icon_fontawesome=\"\" image=\"\" icon_position=\"left\" hide_on_mobile=\"1\" id=\"\" class=\"\" css=\"\"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row scheme=\"dark\" row_type=\"normal\" row_delimiter=\"\" row_fixed=\"\" hide_on_mobile=\"\" hide_on_frontpage=\"1\" css=\".vc_custom_1488548406024{margin-right: 0px !important;margin-left: 0px !important;background-image: url(http://hotlock.axiomthemes.com/wp-content/uploads/2017/01/bg_appointment.jpg?id=213) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}\"][vc_column column_align=\"center\"][vc_empty_space alter_height=\"medium\" hide_on_mobile=\"1\"][trx_sc_content type=\"default\" size=\"1_1\" float=\"none\" align=\"none\" padding=\"none\" title_style=\"default\" title_align=\"default\" title=\"\" subtitle=\"\" description=\"\" link=\"\" link_text=\"\" link_image=\"\" scheme=\"inherit\" id=\"\" class=\"\" css=\"\"][trx_sc_layouts_title type=\"default\" icon_type=\"fontawesome\" icon_fontawesome=\"\" meta=\"1\" title=\"1\" breadcrumbs=\"1\" hide_on_mobile=\"\" id=\"\" class=\"\" css=\"\"][/trx_sc_content][vc_empty_space alter_height=\"medium\" hide_on_mobile=\"1\"][/vc_column][/vc_row]',
+				'meta' => array(
+						'trx_addons_options' => array(
+								'layout_type' => 'header'
+								),
+						'_wpb_shortcodes_custom_css' => '.vc_custom_1492160146775{padding-right: 2em !important;padding-left: 2em !important;}.vc_custom_1488548406024{margin-right: 0px !important;margin-left: 0px !important;background-image: url(http://hotlock.axiomthemes.com/wp-content/uploads/2017/01/bg_appointment.jpg?id=213) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}'
+						)
+				),
+		'custom_710' => array(
+				'name' => 'Partners Logo',
+				'template' => '[vc_row content_placement=\"middle\" row_delimiter=\"\" row_fixed=\"\" hide_on_mobile=\"\" hide_on_frontpage=\"\"][vc_column][trx_widget_slider title=\"\" engine=\"swiper\" slides_type=\"images\" alias=\"slider-home\" noresize=\"1\" slides_ratio=\"16:9\" height=\"\" slider_style=\"default\" effect=\"slide\" direction=\"horizontal\" slides_per_view=\"7\" slides_space=\"0\" interval=\"6000\" controls=\"\" label_prev=\"Prev|PHOTO\" label_next=\"Next|PHOTO\" pagination=\"\" pagination_type=\"bullets\" pagination_pos=\"bottom\" titles=\"center\" large=\"\" category=\"0\" posts=\"5\" slides=\"%5B%7B%22image%22%3A%22197%22%7D%2C%7B%22image%22%3A%22199%22%7D%2C%7B%22image%22%3A%22198%22%7D%2C%7B%22image%22%3A%22200%22%7D%2C%7B%22image%22%3A%22202%22%7D%2C%7B%22image%22%3A%22201%22%7D%2C%7B%22image%22%3A%22203%22%7D%5D\" id=\"\" class=\"\" css=\"\"][/trx_widget_slider][/vc_column][/vc_row]',
+				'meta' => array(
+						'trx_addons_options' => array(
+								'layout_type' => 'custom'
+								)
+						)
+				),
+		'custom_233' => array(
+				'name' => 'Services overview',
+				'template' => '[vc_row full_width=\"stretch_row_content_no_spaces\" equal_height=\"yes\" row_delimiter=\"\" row_fixed=\"\" hide_on_mobile=\"\" hide_on_frontpage=\"\" css=\".vc_custom_1492159871116{padding-top: 0px !important;padding-bottom: 0px !important;}\"][vc_column css=\".vc_custom_1488534196625{background-color: #fafafa !important;}\" offset=\"vc_col-md-6 vc_col-sm-offset-0\"][vc_empty_space alter_height=\"huge\" hide_on_mobile=\"\"][trx_sc_title title=\"We offer <b>fast, professional</b> and <b>exceptional</b> services\" subtitle=\"Services overview\" description=\"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut tristique pretium tellus, sed fermentum est vestibulum id. Aenean semper, odio sed fringilla blandit, nisl nulla placerat mauris, sit amet commodo mi turpis.\" title_style=\"default\" title_tag=\"none\" title_align=\"default\" link=\"/our-services\" link_text=\"Read More\" link_image=\"\" scheme=\"inherit\" id=\"\" class=\"\" css=\"\"][vc_empty_space alter_height=\"huge\" hide_on_mobile=\"\"][/vc_column][vc_column offset=\"vc_col-md-6\" css=\".vc_custom_1492159885360{background-color: #292734 !important;}\"][trx_sc_services featured=\"icon\" hide_excerpt=\"\" icons_animation=\"\" cat=\"29\" orderby=\"post_date\" order=\"desc\" count=\"6\" columns=\"3\" type=\"hover\" tabs_effect=\"fade\" featured_position=\"top\" hide_bg_image=\"\" no_margin=\"1\" ids=\"\" offset=\"\" slider=\"\" slider_pagination=\"\" slides_space=\"0\" title_style=\"default\" title_tag=\"none\" title_align=\"default\" title=\"\" subtitle=\"\" description=\"\" link=\"\" link_text=\"\" link_image=\"\" scheme=\"inherit\" id=\"\" class=\"\" css=\"\"][/vc_column][/vc_row]',
+				'meta' => array(
+						'trx_addons_options' => array(
+								'layout_type' => 'custom'
+								),
+						'_wpb_shortcodes_custom_css' => '.vc_custom_1492159871116{padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1488534196625{background-color: #fafafa !important;}.vc_custom_1492159885360{background-color: #292734 !important;}'
+						)
+				),
+		'custom_192' => array(
+				'name' => 'Testimonials & Counters',
+				'template' => '[vc_row full_width=\"stretch_row_content_no_spaces\" equal_height=\"yes\" content_placement=\"middle\" css=\".vc_custom_1488878763350{padding-top: 0px !important;padding-bottom: 0px !important;}\"][vc_column css=\".vc_custom_1488542136827{background-color: #ffd200 !important;}\" offset=\"vc_col-md-6\"][vc_empty_space alter_height=\"huge\" hide_on_mobile=\"\"][trx_sc_skills max=\"\" values=\"%5B%7B%22title%22%3A%22Locks%20Installed%22%2C%22value%22%3A%22935%22%2C%22color%22%3A%22%23292734%22%2C%22icon_type%22%3A%22fontawesome%22%2C%22icon_fontawesome%22%3A%22icon-padlock%22%7D%2C%7B%22title%22%3A%22Premises%20Secured%22%2C%22value%22%3A%22236%22%2C%22color%22%3A%22%23292734%22%2C%22icon_type%22%3A%22fontawesome%22%2C%22icon_fontawesome%22%3A%22icon-remote-control%22%7D%2C%7B%22title%22%3A%22Satisfied%20Customers%22%2C%22value%22%3A%221255%22%2C%22color%22%3A%22%23292734%22%2C%22icon_type%22%3A%22fontawesome%22%2C%22icon_fontawesome%22%3A%22icon-key-1%22%7D%5D\" columns=\"3\" type=\"counter\" cutout=\"\" compact=\"\" color=\"#292734\" back_color=\"\" border_color=\"\" title_style=\"default\" title_tag=\"none\" title_align=\"default\" title=\"\" subtitle=\"\" description=\"\" link=\"\" link_text=\"\" link_image=\"\" id=\"\" class=\"\" css=\"\"][vc_empty_space alter_height=\"huge\" hide_on_mobile=\"\"][/vc_column][vc_column css=\".vc_custom_1488542126255{background-color: #292734 !important;}\" offset=\"vc_col-md-6\"][vc_empty_space alter_height=\"huge\" hide_on_mobile=\"\"][trx_sc_testimonials cat=\"0\" orderby=\"post_date\" order=\"desc\" slider=\"1\" slider_pagination=\"1\" count=\"4\" columns=\"1\" type=\"default\" ids=\"\" offset=\"\" slides_space=\"0\" title_style=\"default\" title_tag=\"none\" title_align=\"default\" title=\"\" subtitle=\"Testimonials\" description=\"\" link=\"\" link_text=\"\" link_image=\"\" scheme=\"inherit\" id=\"\" class=\"\" css=\"\"][vc_empty_space alter_height=\"huge\" hide_on_mobile=\"\"][/vc_column][/vc_row]',
+				'meta' => array(
+						'trx_addons_options' => array(
+								'layout_type' => 'custom'
+								),
+						'_wpb_shortcodes_custom_css' => '.vc_custom_1488878763350{padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1488542136827{background-color: #ffd200 !important;}.vc_custom_1488542126255{background-color: #292734 !important;}'
+						)
+				)
+		);
+?>

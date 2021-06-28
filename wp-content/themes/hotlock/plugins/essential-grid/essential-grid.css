@@ -1,0 +1,63 @@
+/* Essential Grid styles
+----------------------------------------------------------------- */
+
+.flat-light .esg-filters .esg-sortbutton-order,
+.flat-light .esg-filters .esg-cartbutton-order {
+	line-height:36px;
+	margin:0;
+}
+.flat-light .esg-filters .esg-sortbutton {
+	padding-right: 0;
+}
+
+
+/* Wine list */
+.esg-grid .eg-winelist-content {
+	border: none;
+	padding:0.1em 2em 1.5em;
+}
+.esg-grid .eg-winelist-element-0 {
+	margin-top: 0.2em;
+	line-height:1.15em;
+}
+.esg-grid .eg-winelist-element-25 {
+	padding:0;
+	margin-top:0.2em;
+}
+
+.esg-container .esg-overflowtrick {
+	padding: 3em 0;
+}
+
+/*esg-grid navi*/
+.myportfolio-container.minimal-light {
+	margin-bottom: 3em;
+}
+.myportfolio-container.minimal-light .esg-filterbutton,
+.myportfolio-container.minimal-light .esg-navigationbutton,
+.myportfolio-container.minimal-light .esg-sortbutton,
+.myportfolio-container.minimal-light .esg-cartbutton a {
+	border-radius: 30px;
+	line-height: 60px;
+	padding: 0 26px;
+	background-color: #fafafa;
+	color: #292734;
+	border: none;
+	transition: 0.6s;
+}
+.myportfolio-container.minimal-light .esg-filterbutton.selected,
+.myportfolio-container.minimal-light .esg-navigationbutton.selected,
+.myportfolio-container.minimal-light .esg-sortbutton.selected {
+	color: #fafafa;
+	background-color: #292734;
+	box-shadow: none;
+}
+.myportfolio-container.minimal-light .esg-filterbutton:not(.selected):hover,
+.myportfolio-container.minimal-light .esg-navigationbutton:not(.selected):hover,
+.myportfolio-container.minimal-light .esg-sortbutton:not(.selected):hover {
+	background-color: #ffd200;
+}
+
+.myportfolio-container.minimal-light .esg-grid a i{
+	color: #ffd200!important
+}
